@@ -12,18 +12,20 @@ async function initMap() {
     const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
 
     // The map, centered at Uluru
-    map = new Map(document.getElementById("company-location"), {
-        zoom: 15,
-        center: position,
-        mapId: "DEMO_MAP_ID",
-    });
-
-    // The marker, positioned at Uluru
-    const marker = new AdvancedMarkerElement({
-        map: map,
-        position: position,
-        title: "Uluru",
-    });
+    if (document.getElementById("company-location")) {
+        map = new Map(document.getElementById("company-location"), {
+            zoom: 15,
+            center: position,
+            mapId: "DEMO_MAP_ID",
+        });
+    
+        // The marker, positioned at Uluru
+        const marker = new AdvancedMarkerElement({
+            map: map,
+            position: position,
+            title: "Uluru",
+        });
+    }
 }
 
 initMap();

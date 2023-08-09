@@ -123,7 +123,7 @@
                                 <!-- Select job items start -->
                                 <div class="select-job-items2">
                                     <select name="createdWithin">
-                                        @if (empty($request->createdWithin))
+                                        @if (empty($request))
                                             <option value="-1">Any</option>
                                             <option value="0">1 Day</option>
                                             <option value="1">1 Week</option>
@@ -147,7 +147,7 @@
                                 <!-- Select job items start -->
                                 <div class="select-job-items2">
                                     <select name="salary">
-                                        @if (empty($request->createdWithin))
+                                        @if (empty($request))
                                             <option value="-1">Any</option>
                                             <option value="0">< 5.000.000đ</option>
                                             <option value="1">5.000.000đ - 10.000.000đ</option>
@@ -155,12 +155,12 @@
                                             <option value="3">20.000.000đ - 30.000.000đ</option>
                                             <option value="4">> 30.000.000đ</option>
                                         @else
-                                            <option value="-1" {{ $request->createdWithin == -1 ? 'selected' : '' }}>Any</option>
-                                            <option value="0"> {{ $request->createdWithin == 0 ? 'selected' : '' }}< 5.000.000đ</option>
-                                            <option value="1" {{ $request->createdWithin == 1 ? 'selected' : '' }}>5.000.000đ - 10.000.000đ</option>
-                                            <option value="2" {{ $request->createdWithin == 2 ? 'selected' : '' }}>10.000.000đ - 20.000.000đ</option>
-                                            <option value="3" {{ $request->createdWithin == 3 ? 'selected' : '' }}>20.000.000đ - 30.000.000đ</option>
-                                            <option value="4"> {{ $request->createdWithin == 4 ? 'selected' : '' }}> 30.000.000đ</option>
+                                            <option value="-1" {{ $request->salary == -1 ? 'selected' : '' }}>Any</option>
+                                            <option value="0" {{ $request->salary == 0 ? 'selected' : '' }}>< 5.000.000đ</option>
+                                            <option value="1" {{ $request->salary == 1 ? 'selected' : '' }}>5.000.000đ - 10.000.000đ</option>
+                                            <option value="2" {{ $request->salary == 2 ? 'selected' : '' }}>10.000.000đ - 20.000.000đ</option>
+                                            <option value="3" {{ $request->salary == 3 ? 'selected' : '' }}>20.000.000đ - 30.000.000đ</option>
+                                            <option value="4" {{ $request->salary == 4 ? 'selected' : '' }}>> 30.000.000đ</option>
                                         @endif
                                     </select>
                                 </div>
