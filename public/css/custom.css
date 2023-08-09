@@ -164,10 +164,10 @@ body {
 }
 
 #company-location {
-    height: 95%;
-    width: 112%;
+    height: 90%;
+    width: 110%;
     overflow: auto;
-    margin-top: 2.5%;
+    margin-top: 35px;
 }
 
 .home-blog-area .home-blog-single .blog-img-cap .blog-cap {
