@@ -1,0 +1,205 @@
+body {
+    padding-right: 0 !important;
+}
+
+#scrollUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#newsletter-submit {
+    height: 100%;
+}
+
+.custom-radio-btn {
+    width: 18px;
+    height: 18px;
+}
+
+.custom-green-background {
+    background-color: green;
+}
+
+.custom-grey-background {
+    background-color: grey;
+}
+
+.custom-content-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-margin-header {
+    margin-top: 79px;
+}
+
+.custom-pink-border {
+    border: 1px solid #fb246a;
+}
+
+.custom-blue-border {
+    border: 1px solid #007bff;
+}
+
+.custom-blue-border-hover:hover {
+    border: 1px solid #007bff;
+}
+
+.custom-grey-border {
+    border: 1px solid #ededed;
+}
+
+.custom-word-wrap {
+    word-wrap: break-word;
+}
+
+.custom-40-width {
+    width: 40%;
+}
+
+.custom-50-width {
+    width: 50%;
+}
+
+.custom-75-width {
+    width: 75%;
+}
+
+.custom-90-width {
+    width: 90% !important;
+}
+
+.custom-100-width {
+    width: 100% !important;
+}
+
+.custom-job-height {
+    height: 400px;
+}
+
+.custom-job-card {
+    cursor: pointer;
+}
+
+.custom-job-card:hover .blog-cap h3 {
+    color: #fb246a;
+}
+
+.custom-preloader-circle {
+    border-width: 3px !important;
+}
+
+.custom-no-hover {
+    pointer-events: none;
+}
+
+.custom-shadow {
+    box-shadow: 0px 12px 25px 0px rgba(34,41,72,0.10)
+}
+
+.avatar {
+    margin-left: 300px;
+}
+
+.avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #fb246a;
+    object-fit: cover;
+}
+
+.avatar a {
+    padding: 13px 20px !important;
+}
+
+.info-item {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    padding: 8px 0;
+}
+
+.label-color-pink {
+    color: #fb246a;
+}
+
+.label-color-white {
+    color: white;
+}
+
+.about-label {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 80px;
+}
+
+.about-input-label {
+    display: inline-block;
+    width: 100px;
+}
+
+.about-desc {
+    font-size: 20px;
+}
+
+.about-edit-btn {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+}
+
+.about-name-input {
+    font-size: 40px;
+    margin-top: 12px;
+    text-align: center;
+    height: fit-content;
+}
+
+.about-info-input {
+    display: inline-block;
+    width: 350px;
+}
+
+#company-location {
+    height: 95%;
+    width: 125%;
+    overflow: auto;
+    margin-top: 2.5%;
+}
+
+.home-blog-area .home-blog-single .blog-img-cap .blog-cap {
+    padding: 37px !important;
+}
+
+.single-job-items:hover {
+    cursor: pointer;
+    box-shadow: 0px 22px 57px 0px rgba(34,41,72,0.15) !important;
+}
+
+.pagination .page-item .page-link {
+    font-size: 18px !important;
+}
+
+form.search-box .search-form button {
+    width: 100%;
+    height: 70px;
+    background: #fb246a;
+    font-size: 20px;
+    line-height: 1;
+    text-align: center;
+    color: #fff;
+    display: block;
+    padding: 15px;
+    border-radius: 0px;
+    text-transform: capitalize;
+    font-family: "Muli",sans-serif;
+    letter-spacing: 0.1em;
+    line-height: 1.2;
+    line-height: 38px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
